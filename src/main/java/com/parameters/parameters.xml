@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="parametarizaiton">
+	<test name="parametersTest">
+		<parameter name="url" value="https://login.yahoo.com/" /><!-- url etc is called environment variables-->
+		<parameter name="username" value="jamalyreza90@yahoo.com" />
+		<parameter name="password" value="MRJmrj!22" />
+		<classes>
+			<class name="com.parameters.ParametersTest" />
+		</classes>
+	</test>
+</suite>
+<!-- we can use such key value pairs in confiq properties as well-->

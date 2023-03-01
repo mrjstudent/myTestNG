@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG practice for the first time]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="different testing feature test(failed)">
+    <classes>
+      <class name="com.test.TestNgAssertions">
+        <methods>
+          <include name="setUp"/>
+          <include name="quitBrowser"/>
+          <include name="getTitle"/>
+        </methods>
+      </class> <!-- com.test.TestNgAssertions -->
+      <class name="com.test.dependsOnMethods">
+        <methods>
+          <include name="loginTest"/>
+          <include name="HomepageTest"/>
+        </methods>
+      </class> <!-- com.test.dependsOnMethods -->
+    </classes>
+  </test> <!-- different testing feature test(failed) -->
+</suite> <!-- Failed suite [TestNG practice for the first time] -->
