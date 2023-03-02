@@ -33,6 +33,8 @@ public class ParametersTest {
 //		driver.findElement(By.id("login-passwd")).clear();
 		driver.findElement(By.id("login-passwd")).sendKeys(password);
 		driver.findElement(By.id("login-signin")).click();
+		
+		System.out.println("this is just for pulling practice of git")
 	}
 
 }
