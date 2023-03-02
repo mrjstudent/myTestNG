@@ -24,6 +24,7 @@ public class DataProviderTest {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.get("https://tek-insurance.azurewebsites.net/");
+		System.out.println("this is just for git practice");
 	}
 	@DataProvider
 	public void getTestData() throws IOException {
